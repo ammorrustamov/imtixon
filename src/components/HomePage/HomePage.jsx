@@ -251,9 +251,9 @@ const filteredProducts3 = products3.filter(item =>
 
   </div>
   
-  {/* <div>
+  <div>
     <HomeSlider/>
-  </div> */}
+  </div>
        
 </div>
 
@@ -612,7 +612,7 @@ const filteredProducts3 = products3.filter(item =>
 
 </div>
 
-{/* <footer className="footer">
+<footer className="footer">
   <div className="footer-container">
 
     <div className="footer-col">
@@ -667,7 +667,7 @@ const filteredProducts3 = products3.filter(item =>
   <div className="footer-bottom">
     {t("Copyright")}
   </div>
-</footer> */}
+</footer>
 
   </div>
   )
