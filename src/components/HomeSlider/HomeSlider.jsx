@@ -22,19 +22,19 @@ const HomeSlider = () => {
         slidesPerView={1}
       >
         <SwiperSlide>
-          <img src={img1} alt="iPhone" className="slider-img" />
+          <img src={Iphone} alt="iPhone" className="slider-img" />
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={img1} alt="iPhone" className="slider-img" />
+          <img src={Iphone} alt="iPhone" className="slider-img" />
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={img1} alt="iPhone" className="slider-img" />
+          <img src={Iphone} alt="iPhone" className="slider-img" />
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={img1} alt="iPhone" className="slider-img" />
+          <img src={Iphone} alt="iPhone" className="slider-img" />
         </SwiperSlide>
       </Swiper>
     </div>
