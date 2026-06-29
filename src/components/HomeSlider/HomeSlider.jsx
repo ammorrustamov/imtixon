@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 
 import "./HomeSilider.css";
 
-import Iphone from "../../assets/iphone.png";
+import iphone from "../../assets/iphone.png";
 const HomeSlider = () => {
   return (
     <div className="slider-container">
@@ -22,19 +22,19 @@ const HomeSlider = () => {
         slidesPerView={1}
       >
         <SwiperSlide>
-          <img src={Iphone} alt="iPhone" className="slider-img" />
+          <img src={iphone} alt="iPhone" className="slider-img" />
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Iphone} alt="iPhone" className="slider-img" />
+          <img src={iphone} alt="iPhone" className="slider-img" />
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Iphone} alt="iPhone" className="slider-img" />
+          <img src={iphone} alt="iPhone" className="slider-img" />
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Iphone} alt="iPhone" className="slider-img" />
+          <img src={iphone} alt="iPhone" className="slider-img" />
         </SwiperSlide>
       </Swiper>
     </div>
