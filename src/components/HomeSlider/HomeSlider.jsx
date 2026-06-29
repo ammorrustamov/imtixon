@@ -7,8 +7,7 @@ import "swiper/css/navigation";
 
 import "./HomeSilider.css";
 
-import img1 from "../../assets/Iphone.png";
-
+import Iphone from "../../assets/iphone.png";
 const HomeSlider = () => {
   return (
     <div className="slider-container">
