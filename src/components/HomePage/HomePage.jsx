@@ -4,7 +4,7 @@ import { setSearchQuery } from "../../redux/ShopSlice.js"; // Yo'lni tekshiring
 import { BsCart2 } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
 import { User, ShoppingBag, XCircle, Star, LogOut } from 'lucide-react';
-import iphone from"../../assets/iphone.png"
+// import iphone from"../../assets/iphone.png"
 import Categores from"../../assets/Categores.png"
 import { products } from '../../data/Data.js';
 import { products2 } from '../../data/Data.js';
