@@ -30,7 +30,7 @@ import '../../i18n.js';
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from "swiper/react";
-import HomeSlider from '../HomeSlider.jsx';
+import HomeSlider from '../HomeSlider/HomeSlider.jsx';
 
 
 
@@ -250,10 +250,7 @@ const filteredProducts3 = products3.filter(item =>
 <h3>{t("Health & Beauty")}</h3>
 
   </div>
-  
-  <div>
     <HomeSlider/>
-  </div>
        
 </div>
 
